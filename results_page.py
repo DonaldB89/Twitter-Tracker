@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 
-df = pd.read_csv('submission.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/DonaldB89/Twitter-Tracker/main/submission.csv')
 df = df.loc[df["Category"] !='N']
 df = df.drop(labels=["clean_text", "predict_prob"], axis=1)
 df = df.rename(columns={'Text': 'Tweets', 'Category': 'Important?'})

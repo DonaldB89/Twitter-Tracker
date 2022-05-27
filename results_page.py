@@ -1,4 +1,5 @@
-import streamlit as st#
+import streamlit as st
+pip install typing-extensions
 import pickle
 import numpy as np
 import pandas as pd

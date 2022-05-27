@@ -1,10 +1,8 @@
 import streamlit as st
 pip install typing-extensions
-import pickle
 import numpy as np
 import pandas as pd
 from PIL import Image
-from st_aggrid import AgGrid, GridOptionsBuilder
 
 df = pd.read_csv("submission.csv")
 df = pd.read_csv('submission.csv')

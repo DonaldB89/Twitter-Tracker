@@ -16,4 +16,4 @@ st.table(df)
 
 #image
 image = Image.open('8MS_logo2.jpg')
-st.image(image,width=300)
+st.image(image,width=320)

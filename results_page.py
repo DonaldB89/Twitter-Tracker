@@ -14,7 +14,3 @@ st.title("Twitter Tracker")
 st.write("""### The latest trending news sources""")
 
 st.table(df)
-
-#image
-image = Image.open('8MS logo2.jpg')
-st.image(image,width=300)

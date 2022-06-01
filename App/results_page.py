@@ -10,7 +10,7 @@ df = df.rename(columns={'Text': 'Tweets', 'Category': 'Important?'})
 
 st.title("Twitter Tracker")
 
-st.write("""### The latest trending news sources""")
+st.write("""### The latest important trending tweets""")
 
 st.table(df)
 

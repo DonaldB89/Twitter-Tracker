@@ -15,5 +15,5 @@ st.write("""### The latest trending news sources""")
 st.table(df)
 
 #image
-image = Image.open('https://cdn.8ms.com/cdn/images/svg/logo-white.svg')
+image = Image.open('8MS_logo2.jpg')
 st.image(image,width=300)

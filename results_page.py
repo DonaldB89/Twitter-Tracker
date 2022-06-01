@@ -13,3 +13,7 @@ st.title("Twitter Tracker")
 st.write("""### The latest trending news sources""")
 
 st.table(df)
+
+#image
+image = Image.open('https://github.com/DonaldB89/Twitter-Tracker/blob/main/8MS%20logo2.jpg')
+st.image(image,width=300)

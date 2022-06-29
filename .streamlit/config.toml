@@ -1,7 +1,7 @@
 [theme]
 base = "light"
 primaryColor = "#463B94" # Purple
-backgroundColor = "#000000" # Grey
+backgroundColor = "#F1F2F2" # Grey
 secondaryBackgroundColor = "#414042" # Dark grey
 textColor = "#EF3D49" #Red
 font = "sans serif"
